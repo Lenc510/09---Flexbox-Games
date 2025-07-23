@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Relatório de Experiência com Flexbox</title>
+</head>
+<body>
+  <h1>Relatório de Experiência com Flexbox</h1>
+  
+  <h2>👤 Nome</h2>
+  <p>João da Silva</p>
+
+  <h2>🎮 Jogos Escolhidos</h2>
+  <ul>
+    <li>
+      <strong>Flexbox Froggy</strong> – 
+      <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br/>
+      <em>Justificativa:</em> A progressão dos níveis é clara e divertida. É um ótimo jeito de aprender Flexbox visualmente com feedback instantâneo.
+    </li>
+    <li>
+      <strong>Flexbox Adventure</strong> – 
+      <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">https://codingfantasy.com/games/flexboxadventure/play</a><br/>
+      <em>Justificativa:</em> O jogo coloca o Flexbox em um cenário mais realista e com desafios que simulam aplicações práticas de layout.
+    </li>
+  </ul>
+
+  <h2>📸 Registro de Níveis Mais Desafiadores</h2>
+
+  <h3>Flexbox Froggy – Níveis 8 a 10</h3>
+
+  <p><strong>Nível 8</strong></p>
+  <img src="imagens/froggy-nivel-08.png" width="400" alt="Nível 8 do Flexbox Froggy" />
+  <p>Introduz o <code>align-items: flex-end</code>. Foi necessário entender que ele alinha todos os itens no eixo vertical inferior do container.</p>
+
+  <p><strong>Nível 9</strong></p>
+  <img src="imagens/froggy-nivel-09.png" width="400" alt="Nível 9 do Flexbox Froggy" />
+  <p>Apresenta <code>align-items: center</code>. A dificuldade foi entender a diferença entre <code>justify-content</code> (horizontal) e <code>align-items</code> (vertical).</p>
+
+  <p><strong>Nível 10</strong></p>
+  <img src="imagens/froggy-nivel-10.png" width="400" alt="Nível 10 do Flexbox Froggy" />
+  <p>É necessário combinar <code>justify-content</code> e <code>align-items</code> ao mesmo tempo. A coordenação entre os dois eixos pode ser confusa no início.</p>
+
+  <h3>Flexbox Adventure – Níveis 8 a 10</h3>
+
+  <p><strong>Nível 8</strong></p>
+  <img src="imagens/adventure-nivel-08.png" width="400" alt="Nível 8 do Flexbox Adventure" />
+  <p>Desafiador porque exige que os heróis fiquem alinhados no centro do container usando <code>justify-content: center</code>.</p>
+
+  <p><strong>Nível 9</strong></p>
+  <img src="imagens/adventure-nivel-09.png" width="400" alt="Nível 9 do Flexbox Adventure" />
+  <p>Introduz <code>align-items</code>. A complexidade aqui foi alinhar todos verticalmente sem afetar a posição horizontal.</p>
+
+  <p><strong>Nível 10</strong></p>
+  <img src="imagens/adventure-nivel-10.png" width="400" alt="Nível 10 do Flexbox Adventure" />
+  <p>Mais difícil por envolver a combinação de <code>flex-direction: column</code> e <code>justify-content</code> em eixo vertical.</p>
+
+  <h2>🧠 Reflexão e Aplicação Prática</h2>
+
+  <h3>🔧 Propriedades CSS Utilizadas</h3>
+  <ul>
+    <li><code>display: flex</code> – Define o container como flexível</li>
+    <li><code>flex-direction</code> – Controla a direção dos itens (linha ou coluna)</li>
+    <li><code>justify-content</code> – Alinha os itens no eixo principal</li>
+    <li><code>align-items</code> – Alinha os itens no eixo cruzado</li>
+    <li><code>align-self</code> – Alinha individualmente um item dentro do container</li>
+    <li><code>order</code> – Define a ordem de exibição dos itens</li>
+    <li><code>flex-wrap</code> – Permite que os itens quebrem para outra linha</li>
+    <li><code>gap</code> – Espaçamento entre os itens</li>
+  </ul>
+
+  <h3>💡 Aplicação Prática</h3>
+  <p>Imaginei um <strong>layout de menu lateral com conteúdo principal</strong>. Usaria Flexbox assim:</p>
+  <ul>
+    <li><code>display: flex</code> no container principal</li>
+    <li><code>flex-direction: row</code> para deixar o menu à esquerda e o conteúdo à direita</li>
+    <li><code>flex: 1</code> no conteúdo para ocupar o restante da tela</li>
+    <li><code>align-items: stretch</code> para deixar ambos com altura igual</li>
+    <li><code>gap</code> para espaçar menu e conteúdo</li>
+  </ul>
+</body>
+</html>
