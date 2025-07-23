@@ -9,21 +9,21 @@
   <h1>Relatório de Experiência com Flexbox</h1>
   
   <h2>Nome:</h2>
-  <p>Luick eduardo neres Costa</p>
+  <p>Luick Eduardo Neres Costa</p>
 
   <h2>Jogos Escolhidos:</h2>
-    <ul>
+  <ul>
     <li>
-        <strong>Flexbox Froggy</strong> – 
-        <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br/>
-        <em>Por que escolhi?</em> Porque é um jogo bem de boa pra aprender. Os sapinhos são engraçados, os níveis vão ficando mais difíceis aos poucos e dá pra entender como o Flexbox funciona sem ficar entediado.
+      <strong>Flexbox Froggy</strong> – 
+      <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br/>
+      <em>Por que escolhi?</em> Porque é um jogo bem tranquilo para aprender. Os sapinhos são engraçados, os níveis vão ficando mais difíceis aos poucos, e dá para entender como o Flexbox funciona sem ficar entediado.
     </li>
     <li>
-        <strong>Flexbox Adventure</strong> – 
-        <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">https://codingfantasy.com/games/flexboxadventure/play</a><br/>
-        <em>Por que escolhi?</em> Esse aqui tem uma vibe mais de "jogo mesmo", tipo uma missão. Achei legal porque os desafios são parecidos com coisas que a gente realmente usa no layout do dia a dia.
+      <strong>Flexbox Adventure</strong> – 
+      <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">https://codingfantasy.com/games/flexboxadventure/play</a><br/>
+      <em>Por que escolhi?</em> Esse tem uma vibe mais de "jogo mesmo", como se fosse uma missão. Achei legal porque os desafios são parecidos com situações reais no layout do dia a dia.
     </li>
-    </ul>
+  </ul>
 
   <h2>Registro de Níveis Mais Desafiadores</h2>
 
@@ -35,7 +35,7 @@
 
   <p><strong>Nível 9</strong></p>
   <img src="imagens/froggy-nivel-09.png" width="400" alt="Nível 9 do Flexbox Froggy" />
-  <p>Apresenta <code>align-items: center</code>. A dificuldade foi entender a diferença entre <code>justify-content</code> (horizontal) e <code>align-items</code> (vertical).</p>
+  <p>Apresenta o <code>align-items: center</code>. A dificuldade foi entender a diferença entre <code>justify-content</code> (alinhamento horizontal) e <code>align-items</code> (alinhamento vertical).</p>
 
   <p><strong>Nível 10</strong></p>
   <img src="imagens/froggy-nivel-10.png" width="400" alt="Nível 10 do Flexbox Froggy" />
@@ -45,38 +45,38 @@
 
   <p><strong>Nível 8</strong></p>
   <img src="imagens/adventure-nivel-08.png" width="400" alt="Nível 8 do Flexbox Adventure" />
-  <p>Desafiador porque exige que os heróis fiquem alinhados no centro do container usando <code>justify-content: center</code>.</p>
+  <p>Desafiador porque exige que os heróis fiquem alinhados ao centro do container usando <code>justify-content: center</code>.</p>
 
   <p><strong>Nível 9</strong></p>
   <img src="imagens/adventure-nivel-09.png" width="400" alt="Nível 9 do Flexbox Adventure" />
-  <p>Introduz <code>align-items</code>. A complexidade aqui foi alinhar todos verticalmente sem afetar a posição horizontal.</p>
+  <p>Introduz o <code>align-items</code>. A complexidade aqui foi alinhar todos verticalmente sem afetar a posição horizontal.</p>
 
   <p><strong>Nível 10</strong></p>
   <img src="imagens/adventure-nivel-10.png" width="400" alt="Nível 10 do Flexbox Adventure" />
-  <p>Mais difícil por envolver a combinação de <code>flex-direction: column</code> e <code>justify-content</code> em eixo vertical.</p>
+  <p>Mais difícil por envolver a combinação de <code>flex-direction: column</code> com <code>justify-content</code> no eixo vertical.</p>
 
-  <h2> Reflexão e Aplicação Prática</h2>
+  <h2>Reflexão e Aplicação Prática</h2>
 
-  <h3> Propriedades CSS Utilizadas</h3>
+  <h3>Propriedades CSS Utilizadas</h3>
   <ul>
-    <li><code>display: flex</code> – Define o container como flexível</li>
-    <li><code>flex-direction</code> – Controla a direção dos itens (linha ou coluna)</li>
-    <li><code>justify-content</code> – Alinha os itens no eixo principal</li>
-    <li><code>align-items</code> – Alinha os itens no eixo cruzado</li>
-    <li><code>align-self</code> – Alinha individualmente um item dentro do container</li>
-    <li><code>order</code> – Define a ordem de exibição dos itens</li>
-    <li><code>flex-wrap</code> – Permite que os itens quebrem para outra linha</li>
-    <li><code>gap</code> – Espaçamento entre os itens</li>
+    <li><code>display: flex</code> – Define o container como flexível.</li>
+    <li><code>flex-direction</code> – Controla a direção dos itens (linha ou coluna).</li>
+    <li><code>justify-content</code> – Alinha os itens no eixo principal.</li>
+    <li><code>align-items</code> – Alinha os itens no eixo cruzado.</li>
+    <li><code>align-self</code> – Alinha individualmente um item dentro do container.</li>
+    <li><code>order</code> – Define a ordem de exibição dos itens.</li>
+    <li><code>flex-wrap</code> – Permite que os itens quebrem para outra linha.</li>
+    <li><code>gap</code> – Espaçamento entre os itens.</li>
   </ul>
 
-  <h3> Aplicação Prática</h3>
+  <h3>Aplicação Prática</h3>
   <p>Imaginei um <strong>layout de menu lateral com conteúdo principal</strong>. Usaria Flexbox assim:</p>
   <ul>
-    <li><code>display: flex</code> no container principal</li>
-    <li><code>flex-direction: row</code> para deixar o menu à esquerda e o conteúdo à direita</li>
-    <li><code>flex: 1</code> no conteúdo para ocupar o restante da tela</li>
-    <li><code>align-items: stretch</code> para deixar ambos com altura igual</li>
-    <li><code>gap</code> para espaçar menu e conteúdo</li>
+    <li><code>display: flex</code> no container principal;</li>
+    <li><code>flex-direction: row</code> para deixar o menu à esquerda e o conteúdo à direita;</li>
+    <li><code>flex: 1</code> no conteúdo para ocupar o restante da tela;</li>
+    <li><code>align-items: stretch</code> para deixar ambos com altura igual;</li>
+    <li><code>gap</code> para espaçar o menu e o conteúdo.</li>
   </ul>
 </body>
 </html>
